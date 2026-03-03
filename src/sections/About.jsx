@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import Card from "../components/Card";
 import { Globe } from "../components/Globe";
+import CopyEmailButton from "../components/CopyEmailButton";
 
 const About = () => {
   const gridToContainer = useRef();
@@ -69,7 +70,7 @@ const About = () => {
           <div className="z-10 w-[50%]">
             <p className="headtext">Time Zone</p>
             <p className="subtext">
-              I'm based in Gampaha, and open to remote or in-site work opportunities.
+              I'm based in Colombo\Srilanka, and open to remote or in-site work opportunities.
             </p>
           </div>
           <figure className="absolute left-[30%] top-[10%]">
@@ -79,7 +80,8 @@ const About = () => {
         {/* grid4 */}
         <div className="grid-special-color grid-4">
           <div className="flex flex-col items-center justify-center gap-4 size-full">
-            <p className=""></p>
+            <p className="text-center headtext">Do you want to start a project together?</p>
+            <CopyEmailButton />
           </div>
         </div>
         {/* grid5 */}
