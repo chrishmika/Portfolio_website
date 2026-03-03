@@ -5,7 +5,7 @@ import { Globe } from "../components/Globe";
 const About = () => {
   const gridToContainer = useRef();
   return (
-    <section className="c-space section-spacing">
+    <section className="c-space section-spacing" id="about">
       <h2 className="text-heading">About ME</h2>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-6 md:auto-rows-[18rem] mt-12">
         {/* grid 1 */}
