@@ -3,10 +3,10 @@ const ProjectDetails = ({ title, description, subDescription, image, tags, href,
   // const MotionDiv = motion.div;
   return (
     <div
-      className="fixed inset-0 z-60 flex items-center justify-center p-4 overflow-y-auto bg-black/50 backdrop-blur-sm"
+      className=" fixed inset-0 z-60 flex items-center justify-center p-4 overflow-y-auto bg-black/50 backdrop-blur-sm "
       onClick={closeModal}>
       <motion.div
-        className="relative w-full max-w-2xl max-h-[90vh] overflow-y-auto border shadow-sm rounded-2xl bg-linear-to-l from-midnight to-navy border-white/10"
+        className="scrollbar-thin relative w-full max-w-2xl max-h-[90vh] overflow-y-hidden border shadow-sm rounded-xl bg-linear-to-l from-midnight to-navy border-white/10"
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
         onClick={(e) => e.stopPropagation()}>

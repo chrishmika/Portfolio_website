@@ -6,7 +6,7 @@ const Project = ({ title, description, subDescription, href, image, tags, setPre
   return (
     <>
       <div
-        className="flex-wrap items-center justify-between py-10 space-y-14 sm:flex sm:space-y-0"
+        className="flex-wrap items-center justify-between py-10 space-y-14 sm:flex sm:space-y-0 "
         onMouseEnter={() => !isHidden && setPreview(image)}
         onMouseLeave={() => !isHidden && setPreview(null)}>
         <div>
@@ -27,6 +27,7 @@ const Project = ({ title, description, subDescription, href, image, tags, setPre
           <img src="assets/arrow-right.svg" className="w-5" />
         </button>
       </div>
+
       <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent h-[1px] w-full" />
       {isHidden && (
         <ProjectDetails
