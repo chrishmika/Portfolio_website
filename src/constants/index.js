@@ -69,7 +69,7 @@ export const myProjects = [
     subDescription: ["Built a scalable application with ReactJS."],
     href: "https://github.com/chrishmika/React-Expense-Tracker",
     logo: "#",
-    image: "/assets/projects/no_project_image.png",
+    image: "/assets/projects/expence_tracker.png",
     tags: [
       {
         id: 1,
@@ -79,29 +79,34 @@ export const myProjects = [
 
       {
         id: 2,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "CSS",
+        path: "/assets/logos/css3.svg",
       },
     ],
   },
   {
     id: 4,
     title: "Snake Game",
-    description: "A classic snake game built with ReactJS.",
-    subDescription: ["Built a scalable application with ReactJS."],
+    description: "A classic snake game built with HTML and Javascript.",
+    subDescription: ["Built a simple snake game using HTML, CSS and JavaScript."],
     href: "https://github.com/chrishmika/Snake-Game",
     logo: "#",
-    image: "/assets/projects/no_project_image.png",
+    image: "/assets/projects/snake_game.png",
     tags: [
       {
         id: 1,
-        name: "React",
-        path: "/assets/logos/react.svg",
+        name: "HTML",
+        path: "/assets/logos/html5.svg",
+      },
+      {
+        id: 2,
+        name: "CSS",
+        path: "/assets/logos/css3.svg",
       },
       {
         id: 3,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
       },
     ],
   },
