@@ -110,6 +110,27 @@ export const myProjects = [
       },
     ],
   },
+  {
+    id: 4,
+    title: "Image Gallery",
+    description: "A responsive image gallery built with React.",
+    subDescription: ["Built a scalable image gallery with ReactJS."],
+    href: "https://github.com/chrishmika/Image-Gallery-React",
+    logo: "#",
+    image: "/assets/projects/image_gallery.png",
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 2,
+        name: "tailwindcss",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+    ],
+  },
 ];
 
 export const experiences = [
