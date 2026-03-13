@@ -36,6 +36,42 @@ export const myProjects = [
     ],
   },
   {
+    id: 5,
+    title: "Dev Events",
+    description: "A responsive Event management platform for developers",
+    subDescription: ["Built a scalable event management platform with Next.JS."],
+    href: "https://github.com/chrishmika/dev_event_management",
+    logo: "#",
+    image: "/assets/projects/dev_events.png",
+    tags: [
+      {
+        id: 1,
+        name: "Next.js",
+        path: "/assets/logos/Next.js.svg",
+      },
+      {
+        id: 2,
+        name: "tailwindcss",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 3,
+        name: "posthog",
+        path: "/assets/logos/posthog-light.svg",
+      },
+      {
+        id: 4,
+        name: "mongodb",
+        path: "/assets/logos/mongodb.svg",
+      },
+      {
+        id: 5,
+        name: "TypeScript",
+        path: "/assets/logos/TypeScript.svg",
+      },
+    ],
+  },
+  {
     id: 2,
     title: "AI ChatBot",
     description: "A AI chatbot that users can interact with.",
@@ -111,7 +147,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 4,
+    id: 6,
     title: "Image Gallery",
     description: "A responsive image gallery built with React.",
     subDescription: ["Built a scalable image gallery with ReactJS."],
